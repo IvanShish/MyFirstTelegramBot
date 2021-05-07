@@ -2,7 +2,7 @@
 
 ## Russian:
 
-Бот написан на языке Java. В качестве хостинга использован сервис Heroku. База данных - PostgreSQL.
+Бот написан на языке Java. В качестве хостинга использован сервис Heroku. База данных - PostgreSQL. Username - @VeryAmbitiousBot.
 
 ### Отображение кнопок и команд в телеграме:
 
@@ -36,9 +36,14 @@
 
 ![alt text](https://i.imgur.com/EpZpsV7.png)
 
+В новой версии были добавлены следующие кнопки:
+- /couples - выводит пары, которые должны быть сегодня (сделал для себя).
+- /translate - переводит текст. Если текст введен на русском, то переводит на английский, а если на английском, то на русский.
+- game - игра правда или ложь, состоящая из 5 вопросов.
+
 ## English:
 
-The bot is written on the Java. The Heroku was used as a hosting. Database - PostgreSQL.
+The bot is written on the Java. The Heroku was used as a hosting. Database - PostgreSQL. Username - @VeryAmbitiousBot.
 
 ### Buttons and commands in telegram:
 
