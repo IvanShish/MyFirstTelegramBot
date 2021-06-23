@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Weather {
-    public static final String MY_TOKEN = "";
+    public static final String MY_TOKEN = System.getenv("WEATHER_TOKEN");
 
     public static String getWeather(String message, long chatId) throws IOException, URISyntaxException, SQLException {
         message = message.replaceAll("/weather", "");

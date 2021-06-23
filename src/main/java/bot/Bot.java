@@ -37,13 +37,13 @@ public class Bot extends TelegramLongPollingBot {
     // Метод возвращает имя бота, указанное при регистрации.
     @Override
     public String getBotUsername() {
-        return "VeryAmbitiousBot";
+        return System.getenv("BOT_USERNAME");
     }
 
     // Метод возвращает token бота для связи с сервером Telegram
     @Override
     public String getBotToken() {
-        return "";
+        return System.getenv("BOT_TOKEN");
     }
 
     // Метод для приема сообщений.
